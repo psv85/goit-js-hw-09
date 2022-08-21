@@ -16,3 +16,32 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* 02-timer */
+.timer {
+  display: flex;
+  text-align: center;
+  height: 100px;
+}
+
+.label {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  margin: 10px;
+  padding: 5px;
+}
+
+.value {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+input {
+  font-size: 18px;
+  border-radius: 5px;
+}
